@@ -82,9 +82,6 @@ OpenAI Gym is a toolkit for developing and comparing reinforcement learning algo
 
 Apache Airflow is a workflow automation tool for orchestrating complex data pipelines and system workflows involved in digital twin development and deployment.
 
-## Contributing
-
-We welcome contributions to expand and improve this repository! If you know of any other open-source tools or libraries relevant to digital twin development, or if you have created tutorials/examples, feel free to submit a pull request.
 
 ## License
 
