@@ -23,7 +23,7 @@ By integrating genetic, lifestyle, and environmental data into patient digital t
 
 Apache Kafka is a distributed streaming platform for collecting and processing real-time data streams from sensors and other sources.
 
-### 2. Python Libraries (NumPy, Pandas)
+### 2. [Python Libraries (NumPy, Pandas)](https://www.codecademy.com/article/introduction-to-numpy-and-pandas)
 
 - **NumPy:** For numerical computations.
 - **Pandas:** For data manipulation and preprocessing, essential for cleaning raw data before modeling.
@@ -34,7 +34,7 @@ Apache Kafka is a distributed streaming platform for collecting and processing r
 
 SimPy is a process-based discrete-event simulation framework in Python, useful for modeling complex systems and interactions within digital twins.
 
-### 2. MATLAB/Octave
+### 2. [MATLAB/Octave](https://www.mathworks.com/products/matlab.html)
 
 - **MATLAB:** Widely used commercial platform for modeling and simulating dynamic systems.
 - **Octave:** Open-source alternative for numerical computing and modeling.
@@ -45,7 +45,7 @@ SimPy is a process-based discrete-event simulation framework in Python, useful f
 
 Scikit-learn provides tools for regression, classification, clustering, and model evaluation, essential for predictive analytics within digital twin systems.
 
-### 2. Deep Learning Frameworks (TensorFlow, PyTorch)
+### 2. [Deep Learning Frameworks (TensorFlow, PyTorch)](https://www.tensorflow.org/)
 
 - **TensorFlow:** A powerful deep learning framework for building neural network models.
 - **PyTorch:** Another popular framework for developing deep learning applications.
