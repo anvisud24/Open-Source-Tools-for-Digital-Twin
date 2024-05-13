@@ -17,9 +17,9 @@ This repository aims to provide a curated list of open-source tools and librarie
 ## Introduction
 By integrating genetic, lifestyle, and environmental data into patient digital twins, healthcare providers can deliver personalized treatment plans tailored to individual needs and genetic profiles. Patient digital twins enable continuous remote monitoring of vital signs, medication adherence, and disease progression. This proactive approach facilitates early intervention and reduces hospital readmissions.
 
-## Data Collection and Preprocessing
+# Data Collection and Preprocessing
 Data collection involves gathering patient-specific data from various sources (e.g., sensors, electronic health records) and preprocessing entails cleaning, transforming, and preparing this data for use in healthcare digital twins.
-# Open-Source Tools for Data Preprocessing in Digital Twins
+## Open-Source Tools for Data Preprocessing in Digital Twins
 
 1. [Apache Kafka](https://kafka.apache.org/)
    - **Description**: Apache Kafka is a distributed streaming platform for collecting and processing real-time data streams from sensors and other sources.
@@ -49,9 +49,9 @@ Data collection involves gathering patient-specific data from various sources (e
 9. [PyTorch Geometric](https://github.com/rusty1s/pytorch_geometric)
    - **Description**: PyTorch Geometric is a library for deep learning on graphs, suitable for preprocessing graph-structured data in digital twin applications.
 
-## Simulation and Modeling
+# Simulation and Modeling
 Simulation and modeling create virtual representations of biological systems or patient scenarios to simulate physiological processes, disease progression, and treatment outcomes in healthcare digital twins.
-# Open-Source Tools for Simulation and Modeling in Healthcare Digital Twin
+## Open-Source Tools for Simulation and Modeling in Healthcare Digital Twin
 
 1. [PhysiCell](https://physicell.org/)
    - **Description**: PhysiCell is an open-source agent-based 3D multicellular simulator that can model cell signaling, mechanics, and diffusion in complex tissue environments. It is useful for simulating biological processes and disease progression.
@@ -90,9 +90,9 @@ Simulation and modeling create virtual representations of biological systems or 
     - **Description**: MATLAB is a high-level programming and simulation environment widely used for numerical computation, data visualization, and building simulation models.
 
 
-## Machine Learning and Predictive Analytics
+# Machine Learning and Predictive Analytics
 Machine learning and predictive analytics utilize algorithms and models to analyze patient data, predict disease risks, treatment responses, and optimize healthcare interventions within digital twin frameworks.
-# Open-Source Tools for Machine Learning and Predictive Analysis in Healthcare Digital Twins
+##Open-Source Tools for Machine Learning and Predictive Analysis in Healthcare Digital Twins
 
 1. [scikit-learn](https://github.com/scikit-learn/scikit-learn)
    - **Description**: scikit-learn is a popular machine learning library in Python that includes tools for classification, regression, clustering, and model evaluation. It can be used for predicting disease outcomes, treatment responses, and patient risk assessments.
@@ -124,9 +124,9 @@ Machine learning and predictive analytics utilize algorithms and models to analy
 10. [AutoML](https://github.com/automl/auto-sklearn)
     - **Description**: AutoML is an automated machine learning toolkit that optimizes model selection and hyperparameter tuning. It can be applied to healthcare data for developing accurate predictive models without manual intervention.
 
-## Real-time Monitoring and Control
+# Real-time Monitoring and Control
 Real-time monitoring and control continuously track patient health indicators and physiological parameters in digital twins, enabling immediate adjustments, interventions, and decision-making based on real-time data insights.
-# Open-Source Tools for Real-Time Monitoring and Control in Healthcare Digital Twins
+## Open-Source Tools for Real-Time Monitoring and Control in Healthcare Digital Twins
 
 1. [Apache Kafka](https://kafka.apache.org/)
    - **Description**: Apache Kafka is a distributed streaming platform for collecting and processing real-time data streams from sensors and other sources. It can be used for real-time data ingestion and event-driven architectures in healthcare digital twins.
@@ -155,9 +155,9 @@ Real-time monitoring and control continuously track patient health indicators an
 9. [Telegraf](https://github.com/influxdata/telegraf)
    - **Description**: Telegraf is a plugin-driven server agent for collecting and reporting metrics. It can be integrated with various data sources and used to monitor and collect real-time data for analysis in healthcare digital twin environments.
 
-## Data Visualization and Dashboards
+# Data Visualization and Dashboards
 Data visualization tools and dashboards present healthcare data in visual formats, enabling clinicians and researchers to interpret and analyze complex information from digital twins for informed decision-making and insights.
-# Open-Source Tools for Data Visualization and Dashboards in Healthcare Digital Twins
+## Open-Source Tools for Data Visualization and Dashboards in Healthcare Digital Twins
 
 1. [Grafana](https://github.com/grafana/grafana)
    - **Description**: Grafana is an open-source analytics and monitoring platform that supports visualization of real-time and historical data. It integrates with various data sources, including time series databases, enabling interactive dashboards for healthcare digital twins.
@@ -190,9 +190,9 @@ Data visualization tools and dashboards present healthcare data in visual format
    - **Description**: Matplotlib is a comprehensive library for creating static, interactive, and animated visualizations in Python. It is widely used for plotting and visualizing healthcare data, simulation results, and predictive analytics outputs in digital twin projects.
 
 
-## Optimization and Control
+# Optimization and Control
 Optimization and control techniques adjust healthcare interventions and processes based on digital twin simulations, real-time data, and predictive analytics to optimize patient outcomes and resource allocation.
-# Open-Source Tools for Optimization and Control in Healthcare Digital Twins
+## Open-Source Tools for Optimization and Control in Healthcare Digital Twins
 
 ### 1. [SciPy](https://www.scipy.org/)
 
@@ -230,9 +230,9 @@ Gekko is a Python library for optimization and model predictive control (MPC). I
 
 SALib (Sensitivity Analysis Library) provides tools for sensitivity analysis and uncertainty quantification. It can be used to assess the impact of input parameters on digital twin simulations and optimize control strategies in healthcare applications.
 
-## Integration and Deployment
+# Integration and Deployment
 Integration and deployment involve integrating digital twin technologies with existing healthcare systems, devices, and workflows, ensuring seamless implementation and deployment of digital twin solutions in healthcare settings.
-# Open-Source Tools for Integration and Deployment in Healthcare Digital Twins
+##Open-Source Tools for Integration and Deployment in Healthcare Digital Twins
 
 ### 1. [Apache Airflow](https://airflow.apache.org/)
 
@@ -270,7 +270,7 @@ Grafana is an open-source analytics and monitoring platform that supports visual
 
 The ELK Stack (Elasticsearch, Logstash, Kibana) is a powerful combination of open-source tools for log management, real-time analytics, and visualization. It can be used to collect, analyze, and visualize logs and data generated by healthcare digital twin systems.
 
-## Advanced Considerations
+# Advanced Considerations
 
 ### 1. Data Governance and Security
 
