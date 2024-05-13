@@ -232,7 +232,7 @@ SALib (Sensitivity Analysis Library) provides tools for sensitivity analysis and
 
 # Integration and Deployment
 Integration and deployment involve integrating digital twin technologies with existing healthcare systems, devices, and workflows, ensuring seamless implementation and deployment of digital twin solutions in healthcare settings.
-##Open-Source Tools for Integration and Deployment in Healthcare Digital Twins
+## Open-Source Tools for Integration and Deployment in Healthcare Digital Twins
 
 ### 1. [Apache Airflow](https://airflow.apache.org/)
 
