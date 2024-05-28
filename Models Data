@@ -1,0 +1,28 @@
+# data_ingestion/model_data_ingestion.py
+
+import json
+
+def ingest_model_data(file_path):
+    """Ingest model data from a JSON file."""
+    with open(file_path, 'r') as file:
+        model_data = json.load(file)
+    return model_data
+
+# Example usage
+# model_data = ingest_model_data('path_to_model_data.json')
+
+#Sample JSON Structure (model_data.json):
+[
+  {
+    "model_id": 1,
+    "model_name": "Heart Disease Prediction",
+    "version": "1.0",
+    "trained_on": "2023-12-01"
+  },
+  {
+    "model_id": 2,
+    "model_name": "Diabetes Risk Assessment",
+    "version": "2.0",
+    "trained_on": "2024-03-15"
+  }
+]
