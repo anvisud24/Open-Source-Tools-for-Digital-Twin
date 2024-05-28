@@ -25,21 +25,13 @@ This repository contains tools and scripts for building a digital twin model for
 - `models/`: Scripts for training machine learning models.
 - `nlp/`: Scripts for generating health stories using NLP.
 - `ui/`: Web application for accessing health stories and recommendations.
-  
-- /Open-Source-Tools-for-Digital-Twin
-  - data_ingestion
-    - patient_data_ingestion.py
-    - medical_data_ingestion.py
-    - model_data_ingestion.py
-    - clinical_trials_data.py
-  - data_processing
-    - process_data.py
-  - models
-    - model_training.py
-  - nlp
-    - generate_health_story.py
-  - ui
-    - app.py
+
+##Summary 
+Data Ingestion: Collects data from various sources and formats it into structured DataFrames or dictionaries.
+Data Processing: Cleans and integrates the data for further analysis.
+Models Training and Prediction: Trains machine learning models on historical data and uses these models to make predictions.
+NLP for Health Stories: Generates narrative health stories from the processed data using NLP.
+UI for Clinicians: Provides a web-based interface for clinicians to access health stories and recommendations.
 
 ## Introduction
 By integrating genetic, lifestyle, and environmental data into patient digital twins, healthcare providers can deliver personalized treatment plans tailored to individual needs and genetic profiles. Patient digital twins enable continuous remote monitoring of vital signs, medication adherence, and disease progression. This proactive approach facilitates early intervention and reduces hospital readmissions.
