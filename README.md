@@ -27,11 +27,11 @@ This repository contains tools and scripts for building a digital twin model for
 - `ui/`: Web application for accessing health stories and recommendations.
 
 ##Summary 
-Data Ingestion: Collects data from various sources and formats it into structured DataFrames or dictionaries.
-Data Processing: Cleans and integrates the data for further analysis.
-Models Training and Prediction: Trains machine learning models on historical data and uses these models to make predictions.
-NLP for Health Stories: Generates narrative health stories from the processed data using NLP.
-UI for Clinicians: Provides a web-based interface for clinicians to access health stories and recommendations.
+1. Data Ingestion: Collects data from various sources and formats it into structured DataFrames or dictionaries.
+2. Data Processing: Cleans and integrates the data for further analysis.
+3. Models Training and Prediction: Trains machine learning models on historical data and uses these models to make predictions.
+4. NLP for Health Stories: Generates narrative health stories from the processed data using NLP.
+5. UI for Clinicians: Provides a web-based interface for clinicians to access health stories and recommendations.
 
 ## Introduction
 By integrating genetic, lifestyle, and environmental data into patient digital twins, healthcare providers can deliver personalized treatment plans tailored to individual needs and genetic profiles. Patient digital twins enable continuous remote monitoring of vital signs, medication adherence, and disease progression. This proactive approach facilitates early intervention and reduces hospital readmissions.
