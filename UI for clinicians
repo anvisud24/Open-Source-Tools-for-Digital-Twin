@@ -1,0 +1,21 @@
+# ui/app.py
+
+from flask import Flask, render_template, jsonify
+
+app = Flask(__name__)
+
+@app.route('/')
+def index():
+    return render_template('index.html')
+
+@app.route('/health_stories')
+def health_stories():
+    # Example static data for demo purposes
+    stories = [
+        "Patient John Doe was diagnosed with Hypertension on 2024-01-15 and treated with Medication A.",
+        "Patient Jane Smith was diagnosed with Diabetes on 2024-02-20 and treated with Medication B."
+    ]
+    return jsonify(stories)
+
+if __name__ == '__main__':
+    app.run(debug=True)
