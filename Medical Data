@@ -1,0 +1,15 @@
+# data_ingestion/medical_data_ingestion.py
+
+import pandas as pd
+
+def ingest_medical_data(file_path):
+    """Ingest medical data from a CSV file."""
+    return pd.read_csv(file_path)
+
+# Example usage
+# medical_data = ingest_medical_data('path_to_medical_data.csv')
+
+#Sample CSV Structure (medical_data.csv):
+record_id, patient_id, diagnosis, treatment, date
+ 1, Hypertension, Medication A, 2024-01-15
+ 2, Diabetes, Medication B, 2024-02-20
