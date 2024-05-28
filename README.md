@@ -1,19 +1,3 @@
-# Open-Source-Tools-for-Digital-Twin
-This repository aims to provide a curated list of open-source tools and libraries for various aspects of digital twin development in healthcare.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Data Collection and Preprocessing](#data-collection-and-preprocessing)
-- [Simulation and Modeling](#simulation-and-modeling)
-- [Machine Learning and Predictive Analytics](#machine-learning-and-predictive-analytics)
-- [Real-time Monitoring and Control](#real-time-monitoring-and-control)
-- [Data Visualization and Dashboards](#data-visualization-and-dashboards)
-- [Optimization and Control](#optimization-and-control)
-- [Integration and Deployment](#integration-and-deployment)
-- [Contributing](#contributing)
-- [License](#license)
-
 # Open-Source Tools for Digital Twin
 
 ## Overview
@@ -31,9 +15,16 @@ This repository contains tools and scripts for building a digital twin model for
 5. [NLP for Health Stories](#nlp-for-health-stories)
 6. [UI for Clinicians](#ui-for-clinicians)
 7. [Setup Instructions](#setup-instructions)
-8. [Usage](#usage)
-9. [Contributing](#contributing)
-10. [License](#license)
+-   [Data Collection and Preprocessing](#data-collection-and-preprocessing)
+-   [Simulation and Modeling](#simulation-and-modeling)
+-   [Machine Learning and Predictive Analytics](#machine-learning-and-predictive-analytics)
+-   [Real-time Monitoring and Control](#real-time-monitoring-and-control)
+-   [Data Visualization and Dashboards](#data-visualization-and-dashboards)
+-   [Optimization and Control](#optimization-and-control)
+-   [Integration and Deployment](#integration-and-deployment)
+8.[Usage](#usage)
+9.[Contributing](#contributing)
+10.[License](#license)
 
 ## Repository Structure
 - `data_ingestion/`: Scripts for ingesting personal patient data, medical data, model data, and clinical trials data.
