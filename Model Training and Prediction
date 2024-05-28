@@ -1,0 +1,23 @@
+# models/model_training.py
+
+from sklearn.ensemble import RandomForestClassifier
+import joblib
+
+def train_model(training_data, labels):
+    """Train a Random Forest model."""
+    model = RandomForestClassifier(n_estimators=100)
+    model.fit(training_data, labels)
+    joblib.dump(model, "model.pkl")
+
+def load_model(model_path):
+    """Load a trained model."""
+    return joblib.load(model_path)
+
+def predict(model, new_data):
+    """Make predictions with the trained model."""
+    return model.predict(new_data)
+
+# Example usage
+# train_model(training_data, labels)
+# model = load_model('model.pkl')
+# predictions = predict(model, new_data)
