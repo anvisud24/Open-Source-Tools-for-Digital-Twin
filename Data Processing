@@ -1,0 +1,12 @@
+# data_processing/process_data.py
+
+import pandas as pd
+
+def process_patient_data(patient_data, medical_data):
+    """Process and integrate patient and medical data."""
+    # Merging datasets on patient_id
+    integrated_data = pd.merge(patient_data, medical_data, on="patient_id")
+    return integrated_data
+
+# Example usage
+# integrated_data = process_patient_data(patient_data, medical_data)
