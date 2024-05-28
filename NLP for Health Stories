@@ -1,0 +1,17 @@
+# nlp/generate_health_story.py
+
+import spacy
+
+nlp = spacy.load("en_core_web_sm")
+
+def generate_health_story(integrated_data):
+    """Generate health story using NLP."""
+    health_story = []
+    for _, row in integrated_data.iterrows():
+        text = f"Patient {row['name']} was diagnosed with {row['diagnosis']} on {row['date']} and treated with {row['treatment']}."
+        doc = nlp(text)
+        health_story.append(doc.text)
+    return health_story
+
+# Example usage
+# health_stories = generate_health_story(integrated_data)
