@@ -1,0 +1,11 @@
+# data_ingestion/clinical_trials_data.py
+
+import requests
+
+def fetch_clinical_trials():
+    url = "https://clinicaltrials.gov/api/query/full_studies?expr=heart+disease&min_rnk=1&max_rnk=10&fmt=json"
+    response = requests.get(url)
+    return response.json()
+
+# Example usage
+# clinical_trials_data = fetch_clinical_trials()
