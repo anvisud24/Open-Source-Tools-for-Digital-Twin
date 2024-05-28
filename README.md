@@ -22,9 +22,9 @@ This repository contains tools and scripts for building a digital twin model for
 -   [Data Visualization and Dashboards](#data-visualization-and-dashboards)
 -   [Optimization and Control](#optimization-and-control)
 -   [Integration and Deployment](#integration-and-deployment)
-8.[Usage](#usage)
-9.[Contributing](#contributing)
-10.[License](#license)
+8. [Usage](#usage)
+9. [Contributing](#contributing)
+10. [License](#license)
 
 ## Repository Structure
 - `data_ingestion/`: Scripts for ingesting personal patient data, medical data, model data, and clinical trials data.
